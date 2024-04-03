@@ -1,0 +1,52 @@
+.calendar {
+  background: rgb(31, 31, 31);
+}
+
+.calendar__day {
+  width: 100px;
+  height: 300px;
+  border-radius: 7px;
+  flex-wrap: wrap;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__stats {
+  width: calc(100%- 100px);
+  height: 300px;
+  border-radius: 7px;
+  border: 2px solid #fff;
+}
+
+.calendar__stats {
+  height: 300px;
+  width: calc(100% - 120px);
+}
+
+.calendar__status {
+  height: 300px;
+  width: 100%;
+}
+
+.chevron__up {
+  rotate: 180deg;
+  border-radius: 100%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.chevron__up:hover {
+  background-color: rgba(201, 201, 201, 0.3);
+}
+
+.chevron__down {
+  border-radius: 100%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.chevron__down:hover {
+  background-color: rgba(201, 201, 201, 0.3);
+}

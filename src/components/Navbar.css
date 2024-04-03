@@ -1,0 +1,8 @@
+.cardTemp {
+  background: "#1F1F1F" !important;
+  cursor: "pointer" !important
+}
+
+.cardTemp:hover {
+  background: "#1971C" !important;
+}
